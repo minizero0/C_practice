@@ -12,5 +12,4 @@ int	main(void)
 	printf ("result = %d\n", result);
 	result = add(5,7);
 	printf ("result = %d\n", result);
-	return 0;
 }
