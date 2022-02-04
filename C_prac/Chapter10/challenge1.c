@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 
 void	trans(int num)
 {
-	char hexa[20] = {0 ,};
-	int	position = 0;
-	while (1)
+	char	hexa[20] = {0 ,};
+	int position = 0;
+
+	while(1)
 	{
 		int mod = num % 16;
 		if (mod < 10)
@@ -21,11 +21,11 @@ void	trans(int num)
 		printf("%c", hexa[i]);
 }
 
-int	main(void)
+int main(void)
 {
-	int	num;
-
-	printf("정수를 입력하세요 : \n");
+	int num;
+	
+	printf ("16진수로 변환할 10진수 입력: \n");
 	scanf("%d", &num);
 	trans(num);
 }
