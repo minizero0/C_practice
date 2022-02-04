@@ -4,8 +4,8 @@ void	Recursive(int num)
 {
 	if (num<=0)
 		return;
-	printf("Recursive call~ %d\n", num);
 	Recursive(num-1);
+	printf("Recursive call~ %d\n", num);
 }
 
 int	main(void)
