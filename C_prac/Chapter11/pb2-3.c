@@ -29,4 +29,4 @@ int	main(void)
 			}
 		}
 	printf ("%c\n", str[index - 1]);
-}
+}	
